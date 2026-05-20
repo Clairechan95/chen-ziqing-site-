@@ -115,7 +115,10 @@
         "name": "OuiOuiAI – Plateforme intelligente d'apprentissage du français",
         "desc": "Application web développée de manière autonome, intégrant recherche lexicale par IA, carnet de vocabulaire, exercices de conjugaison, dictée créative et suivi des erreurs.",
         "year": "2024–présent",
-        "tag": "Développement personnel"
+        "tag": "Développement personnel",
+        "featured": true,
+        "url": "https://ouiouiai.pages.dev/",
+        "cta": "Essayer"
       },
       {
         "name": "Cours d'excellence de l'Université Jinan (volet HMT-diaspora)",

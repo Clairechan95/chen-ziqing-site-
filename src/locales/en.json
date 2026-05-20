@@ -115,7 +115,10 @@
         "name": "OuiOuiAI – Intelligent French Learning Platform",
         "desc": "A self-developed web application for French learners, featuring AI-powered vocabulary lookup, word notebook, verb conjugation practice, creative dictation, and a wrong-answer tracker.",
         "year": "2024–present",
-        "tag": "Self-developed"
+        "tag": "Self-developed",
+        "featured": true,
+        "url": "https://ouiouiai.pages.dev/",
+        "cta": "Try it now"
       },
       {
         "name": "Jinan University Gold Course (HMT-Overseas Special)",
