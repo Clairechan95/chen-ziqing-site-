@@ -88,8 +88,9 @@
         "titleFr": "Une pratique innovante en pédagogie par projets : création audiovisuelle en français pour les étudiants chinois",
         "journal": "Synergies Chine",
         "year": "2024",
-        "level": "B1类核心期刊",
-        "role": "第一作者"
+        "level": "核心期刊",
+        "role": "第一作者",
+        "url": "https://gerflint.fr/images/revues/Chine/Chine19/chen_ma.pdf"
       }
     ]
   },
@@ -162,12 +163,12 @@
   "gallery": {
     "title": "精彩瞬间",
     "items": [
-      { "src": "/gallery-gdtv.jpg", "caption": "广东卫视《直播全球》欧洲特约记者，巴黎" },
-      { "src": "/gallery-opera.jpg", "caption": "广州大剧院《玫瑰人生》主创团队沙龙，法中口译" },
-      { "src": "/gallery-community.jpg", "caption": "指导学生赴猎德国际社区开展对外汉语教学" },
-      { "src": "/gallery-class2.jpg", "caption": "微专业「中法品牌传播与新媒体实务」课程学生合影" },
-      { "src": "/gallery-olympic.jpg", "caption": "大创项目：法语奥运主题兴趣课" },
-      { "src": "/gallery-class3.jpg", "caption": "旅游法语项目式课程——法语视频创作项目学生合影" }
+      { "src": "/gallery-gdtv.webp", "caption": "广东卫视《直播全球》欧洲特约记者，巴黎" },
+      { "src": "/gallery-opera.webp", "caption": "广州大剧院《玫瑰人生》主创团队沙龙，法中口译" },
+      { "src": "/gallery-community.webp", "caption": "指导学生赴猎德国际社区开展对外汉语教学" },
+      { "src": "/gallery-class2.webp", "caption": "微专业「中法品牌传播与新媒体实务」课程学生合影" },
+      { "src": "/gallery-olympic.webp", "caption": "大创项目：法语奥运主题兴趣课" },
+      { "src": "/gallery-class3.webp", "caption": "旅游法语项目式课程——法语视频创作项目学生合影" }
     ]
   },
   "contact": {

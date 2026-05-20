@@ -88,8 +88,9 @@
         "titleFr": "Synergies Chine, n° 19, 2024",
         "journal": "Synergies Chine",
         "year": "2024",
-        "level": "Revue classée B1",
-        "role": "Première auteure"
+        "level": "Revue à comité de lecture",
+        "role": "Première auteure",
+        "url": "https://gerflint.fr/images/revues/Chine/Chine19/chen_ma.pdf"
       }
     ]
   },
@@ -162,12 +163,12 @@
   "gallery": {
     "title": "Galerie",
     "items": [
-      { "src": "/gallery-gdtv.jpg", "caption": "Correspondante européenne, GDTV · Paris" },
-      { "src": "/gallery-opera.jpg", "caption": "Interprète pour La Vie en Rose · Guangzhou Opera House" },
-      { "src": "/gallery-community.jpg", "caption": "Encadrement de cours de mandarin à la communauté internationale de Liede" },
-      { "src": "/gallery-class2.jpg", "caption": "Micro-diplôme Communication de marque sino-française — photo de fin de semestre" },
-      { "src": "/gallery-olympic.jpg", "caption": "Projet étudiant : atelier de FLE sur le thème des JO" },
-      { "src": "/gallery-class3.jpg", "caption": "Français du tourisme — cours de pédagogie par projet (création vidéo)" }
+      { "src": "/gallery-gdtv.webp", "caption": "Correspondante européenne, GDTV · Paris" },
+      { "src": "/gallery-opera.webp", "caption": "Interprète pour La Vie en Rose · Guangzhou Opera House" },
+      { "src": "/gallery-community.webp", "caption": "Encadrement de cours de mandarin à la communauté internationale de Liede" },
+      { "src": "/gallery-class2.webp", "caption": "Micro-diplôme Communication de marque sino-française — photo de fin de semestre" },
+      { "src": "/gallery-olympic.webp", "caption": "Projet étudiant : atelier de FLE sur le thème des JO" },
+      { "src": "/gallery-class3.webp", "caption": "Français du tourisme — cours de pédagogie par projet (création vidéo)" }
     ]
   },
   "contact": {

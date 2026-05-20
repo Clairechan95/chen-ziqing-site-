@@ -88,8 +88,9 @@
         "titleFr": "An Innovative Practice in Project-Based Pedagogy: Audiovisual Creation in French for Chinese Students",
         "journal": "Synergies Chine",
         "year": "2024",
-        "level": "B1-ranked journal",
-        "role": "First author"
+        "level": "Peer-reviewed journal",
+        "role": "First author",
+        "url": "https://gerflint.fr/images/revues/Chine/Chine19/chen_ma.pdf"
       }
     ]
   },
@@ -162,12 +163,12 @@
   "gallery": {
     "title": "Gallery",
     "items": [
-      { "src": "/gallery-gdtv.jpg", "caption": "European Correspondent, GDTV Global Live · Paris" },
-      { "src": "/gallery-opera.jpg", "caption": "Interpreter for La Vie en Rose creative team · Guangzhou Opera House" },
-      { "src": "/gallery-community.jpg", "caption": "Supervising Mandarin classes at Liede International Community" },
-      { "src": "/gallery-class2.jpg", "caption": "Sino-French Brand Communication micro-major — end-of-term class photo" },
-      { "src": "/gallery-olympic.jpg", "caption": "Student Innovation Project: French Olympics Workshop" },
-      { "src": "/gallery-class3.jpg", "caption": "Tourism French — project-based French video creation class" }
+      { "src": "/gallery-gdtv.webp", "caption": "European Correspondent, GDTV Global Live · Paris" },
+      { "src": "/gallery-opera.webp", "caption": "Interpreter for La Vie en Rose creative team · Guangzhou Opera House" },
+      { "src": "/gallery-community.webp", "caption": "Supervising Mandarin classes at Liede International Community" },
+      { "src": "/gallery-class2.webp", "caption": "Sino-French Brand Communication micro-major — end-of-term class photo" },
+      { "src": "/gallery-olympic.webp", "caption": "Student Innovation Project: French Olympics Workshop" },
+      { "src": "/gallery-class3.webp", "caption": "Tourism French — project-based French video creation class" }
     ]
   },
   "contact": {

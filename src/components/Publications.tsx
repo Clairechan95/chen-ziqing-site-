@@ -11,7 +11,14 @@ export default function Publications() {
             <div key={i} className="flex gap-4">
               <span className="text-sm text-gray-400 w-10 flex-shrink-0 pt-0.5">{pub.year}</span>
               <div className="border-l-2 border-accent pl-4">
-                <p className="text-sm font-medium text-gray-800 italic">{pub.title}</p>
+                {pub.url ? (
+                  <a href={pub.url} target="_blank" rel="noopener noreferrer"
+                    className="text-sm font-medium text-gray-800 italic hover:text-primary transition-colors">
+                    {pub.title}
+                  </a>
+                ) : (
+                  <p className="text-sm font-medium text-gray-800 italic">{pub.title}</p>
+                )}
                 {pub.titleFr && pub.titleFr !== pub.title && (
                   <p className="text-xs text-gray-500 mt-0.5">{pub.titleFr}</p>
                 )}

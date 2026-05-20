@@ -12,7 +12,7 @@ export default function Hero() {
         {/* Avatar */}
         <div className="flex-shrink-0">
           <img
-            src="/avatar.jpg"
+            src="/avatar.webp"
             alt="Chen Ziqing"
             className="w-36 h-36 rounded-full object-cover object-top shadow-md ring-4 ring-primary/10"
           />
@@ -72,7 +72,7 @@ export default function Hero() {
                 <div className="bg-white rounded-2xl p-5 shadow-2xl flex flex-col items-center gap-3 max-w-xs w-full"
                   onClick={e => e.stopPropagation()}>
                   <p className="text-sm font-medium text-gray-700">{t.hero.wechat}</p>
-                  <img src="/wechat-qr.jpg" alt="WeChat QR" className="w-full object-contain rounded-lg" />
+                  <img src="/wechat-qr.webp" alt="WeChat QR" className="w-full object-contain rounded-lg" />
                 </div>
                 <button
                   onClick={() => setQrOpen(false)}
