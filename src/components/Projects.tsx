@@ -19,7 +19,7 @@ export default function Projects() {
                 <span className="text-xs text-gray-400">{featured.year}</span>
               </div>
               <h3 className="text-base font-bold text-gray-900 mb-2">{featured.name}</h3>
-              <p className="text-sm text-gray-500 leading-relaxed">{featured.desc}</p>
+              <p className="text-sm text-gray-500 leading-relaxed text-justify">{featured.desc}</p>
             </div>
             {featured.url && (
               <a
@@ -49,7 +49,7 @@ export default function Projects() {
               </div>
               <div>
                 <h3 className="text-sm font-semibold text-gray-800 mb-1.5">{proj.name}</h3>
-                <p className="text-xs text-gray-500 leading-relaxed">{proj.desc}</p>
+                <p className="text-xs text-gray-500 leading-relaxed text-justify">{proj.desc}</p>
               </div>
               {proj.stats && (
                 <div className="flex flex-wrap gap-1.5 pt-1 border-t border-gray-200">
