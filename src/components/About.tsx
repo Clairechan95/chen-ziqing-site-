@@ -8,6 +8,14 @@ export default function About() {
         <div className="md:col-span-2">
           <h2 className="text-xl font-bold text-primary mb-4">{t.about.title}</h2>
           <p className="text-gray-600 leading-relaxed text-sm">{t.about.bio}</p>
+          <a
+            href="https://ouiouiai.pages.dev/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block mt-4 text-sm text-primary hover:underline font-medium"
+          >
+            {t.about.projectLabel}
+          </a>
         </div>
         <div className="space-y-8">
           <div>

@@ -54,7 +54,8 @@
   },
   "about": {
     "title": "À propos",
-    "bio": "Maître de conférences en français à l'École des langues étrangères de l'Université Jinan, je suis titulaire d'un master en didactique du FLE de l'Université de Lorraine (France). Depuis mon recrutement en 2020, j'enseigne la compréhension orale en français, le français deuxième langue étrangère et la création vidéo en français par projets, en m'intéressant particulièrement à l'intégration des technologies d'intelligence artificielle et de la pédagogie de projet dans l'enseignement des langues étrangères. J'ai également développé OuiOuiAI, une plateforme d'apprentissage du français assisté par IA, afin de concrétiser mes réflexions pédagogiques en outils pratiques."
+    "bio": "Maître de conférences en français à l'École des langues étrangères de l'Université Jinan, je suis titulaire d'un master en didactique du FLE de l'Université de Lorraine (France). Depuis mon recrutement en 2020, j'enseigne la compréhension orale en français, le français deuxième langue étrangère et la création vidéo en français par projets, en m'intéressant particulièrement à l'intégration des technologies d'intelligence artificielle et de la pédagogie de projet dans l'enseignement des langues étrangères. J'ai également développé OuiOuiAI, une plateforme d'apprentissage du français assisté par IA, afin de concrétiser mes réflexions pédagogiques en outils pratiques.",
+    "projectLabel": "Plateforme d'apprentissage IA OuiOuiAI →"
   },
   "education": {
     "title": "Formation",

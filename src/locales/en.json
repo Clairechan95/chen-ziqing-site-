@@ -54,7 +54,8 @@
   },
   "about": {
     "title": "About",
-    "bio": "I am a Lecturer in French at the School of Foreign Languages, Jinan University. I hold a Master's degree in French Language Teaching (FLE) from the Université de Lorraine, France. Since joining Jinan University in 2020, I have been teaching French listening, French as a second foreign language, and project-based French video production courses, with a focus on integrating AI technology and project-based approaches into foreign language education. I also independently developed OuiOuiAI, an intelligent French learning platform, to translate pedagogical ideas into practical tools."
+    "bio": "I am a Lecturer in French at the School of Foreign Languages, Jinan University. I hold a Master's degree in French Language Teaching (FLE) from the Université de Lorraine, France. Since joining Jinan University in 2020, I have been teaching French listening, French as a second foreign language, and project-based French video production courses, with a focus on integrating AI technology and project-based approaches into foreign language education. I also independently developed OuiOuiAI, an intelligent French learning platform, to translate pedagogical ideas into practical tools.",
+    "projectLabel": "French AI Learning Platform OuiOuiAI →"
   },
   "education": {
     "title": "Education",
