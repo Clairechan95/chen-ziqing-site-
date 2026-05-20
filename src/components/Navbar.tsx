@@ -59,18 +59,33 @@ export default function Navbar() {
           </div>
         </div>
 
-        {/* Mobile menu button */}
-        <button
-          className="md:hidden text-gray-500"
-          onClick={() => setOpen(!open)}
-          aria-label="Menu"
-        >
-          <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            {open
-              ? <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-              : <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />}
-          </svg>
-        </button>
+        {/* Mobile: language switcher + menu button */}
+        <div className="md:hidden flex items-center gap-2">
+          <div className="flex items-center gap-1 border border-gray-200 rounded-full px-1 py-0.5">
+            {langs.map(l => (
+              <button
+                key={l.code}
+                onClick={() => setLang(l.code)}
+                className={`px-2.5 py-0.5 rounded-full text-xs font-medium transition-all ${
+                  lang === l.code ? 'bg-primary text-white' : 'text-gray-400'
+                }`}
+              >
+                {l.label}
+              </button>
+            ))}
+          </div>
+          <button
+            className="text-gray-500"
+            onClick={() => setOpen(!open)}
+            aria-label="Menu"
+          >
+            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              {open
+                ? <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                : <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />}
+            </svg>
+          </button>
+        </div>
       </div>
 
       {/* Mobile dropdown */}
@@ -86,20 +101,6 @@ export default function Navbar() {
               {link.label}
             </a>
           ))}
-          <div className="flex items-center gap-2 mt-4 pt-3 border-t border-gray-100">
-            <span className="text-xs text-gray-400 mr-1">语言 / Lang</span>
-            {langs.map(l => (
-              <button
-                key={l.code}
-                onClick={() => setLang(l.code)}
-                className={`px-4 py-1.5 rounded-full text-sm font-semibold transition-all ${
-                  lang === l.code ? 'bg-primary text-white shadow-sm' : 'bg-gray-100 text-gray-500'
-                }`}
-              >
-                {l.label}
-              </button>
-            ))}
-          </div>
         </div>
       )}
     </nav>
