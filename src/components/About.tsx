@@ -7,7 +7,7 @@ export default function About() {
       <div className="max-w-5xl mx-auto px-6 grid md:grid-cols-3 gap-10">
         <div className="md:col-span-2">
           <h2 className="text-xl font-bold text-primary mb-4">{t.about.title}</h2>
-          <p className="text-gray-600 leading-relaxed text-sm">{t.about.bio}</p>
+          <p className="text-gray-600 leading-relaxed text-sm text-justify">{t.about.bio}</p>
           <a
             href="https://ouiouiai.pages.dev/"
             target="_blank"
