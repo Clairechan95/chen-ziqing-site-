@@ -128,9 +128,11 @@
       },
       {
         "name": "Projet de réforme pédagogique de l'Université Jinan",
-        "desc": "Recherche sur une pratique innovante combinant enseignement du FLE, création de vidéos courtes et valorisation de la culture chinoise auprès des étudiants HMT-diaspora.",
+        "desc": "Recherche sur un modèle pédagogique « FLE + nouveaux médias » pour les étudiants HMT-diaspora, combinant enseignement du français, création vidéo et transmission culturelle.",
         "year": "2023–2025",
-        "tag": "Niveau universitaire"
+        "tag": "Niveau universitaire",
+        "stats": ["33 vidéos en français", "180 000+ vues", "4 promotions"],
+        "highlights": ["Adopté par l'Université de Lorraine", "Relayé par l'Alliance Française Guangzhou", "Meilleure encadrante · Prix Gold Paper 2024"]
       },
       {
         "name": "Projet d'innovation étudiante : Olympisme au campus",

@@ -40,15 +40,33 @@ export default function Projects() {
         {/* Other projects */}
         <div className="grid md:grid-cols-3 gap-5">
           {rest.map((proj, i) => (
-            <div key={i} className="bg-gray-50 rounded-xl p-5 border border-gray-100">
-              <div className="flex items-start justify-between gap-2 mb-3">
+            <div key={i} className="bg-gray-50 rounded-xl p-5 border border-gray-100 flex flex-col gap-3">
+              <div className="flex items-start justify-between gap-2">
                 <span className="text-xs bg-primary/10 text-primary px-2 py-0.5 rounded-full font-medium">
                   {proj.tag}
                 </span>
                 <span className="text-xs text-gray-400 flex-shrink-0">{proj.year}</span>
               </div>
-              <h3 className="text-sm font-semibold text-gray-800 mb-2">{proj.name}</h3>
-              <p className="text-xs text-gray-500 leading-relaxed">{proj.desc}</p>
+              <div>
+                <h3 className="text-sm font-semibold text-gray-800 mb-1.5">{proj.name}</h3>
+                <p className="text-xs text-gray-500 leading-relaxed">{proj.desc}</p>
+              </div>
+              {proj.stats && (
+                <div className="flex flex-wrap gap-1.5 pt-1 border-t border-gray-200">
+                  {proj.stats.map((s, j) => (
+                    <span key={j} className="text-xs font-semibold text-accent bg-accent/8 px-2 py-0.5 rounded-full">{s}</span>
+                  ))}
+                </div>
+              )}
+              {proj.highlights && (
+                <ul className="space-y-1">
+                  {proj.highlights.map((h, j) => (
+                    <li key={j} className="text-xs text-gray-500 flex items-start gap-1.5">
+                      <span className="text-accent mt-0.5">✦</span>{h}
+                    </li>
+                  ))}
+                </ul>
+              )}
             </div>
           ))}
         </div>

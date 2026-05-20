@@ -128,9 +128,11 @@
       },
       {
         "name": "Jinan University Teaching Reform Project",
-        "desc": "Research on innovative French teaching practice combining French instruction, short-video creation and storytelling for HMT-overseas Chinese students.",
+        "desc": "Research on an innovative \"French + New Media\" pedagogy model for HMT-overseas students, combining French instruction, short-video creation, and cross-cultural storytelling.",
         "year": "2023–2025",
-        "tag": "University-level"
+        "tag": "University-level",
+        "stats": ["33 French videos", "180,000+ views", "4 cohorts"],
+        "highlights": ["Adopted by Université de Lorraine", "Reposted by Alliance Française Guangzhou", "Best Supervisor · Gold Paper Award 2024"]
       },
       {
         "name": "Innovation Project: Olympics on Campus",
