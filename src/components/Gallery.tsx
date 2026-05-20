@@ -6,32 +6,31 @@ export default function Gallery() {
   const [lightbox, setLightbox] = useState<string | null>(null);
   const [hidden, setHidden] = useState<Set<number>>(new Set());
 
-  const visible = t.gallery.items.filter((_, i) => !hidden.has(i));
-
   return (
     <section id="gallery" className="py-16 bg-white border-t border-gray-100">
       <div className="max-w-5xl mx-auto px-6">
         <h2 className="text-xl font-bold text-primary mb-8">{t.gallery.title}</h2>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
           {t.gallery.items.map((item, i) => (
-            <button
+            <div
               key={i}
-              onClick={() => setLightbox(item.src)}
-              className={`group relative overflow-hidden rounded-xl aspect-[4/3] bg-gray-100 text-left ${hidden.has(i) ? 'hidden' : ''}`}
+              className={hidden.has(i) ? 'hidden' : 'flex flex-col gap-1.5'}
             >
-              <img
-                src={item.src}
-                alt={item.caption}
-                className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
-                onError={() => setHidden(prev => new Set(prev).add(i))}
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-200 flex items-end p-3">
-                <p className="text-white text-[11px] leading-snug">{item.caption}</p>
-              </div>
-            </button>
+              <button
+                onClick={() => setLightbox(item.src)}
+                className="group relative overflow-hidden rounded-xl aspect-[4/3] bg-gray-100 w-full"
+              >
+                <img
+                  src={item.src}
+                  alt={item.caption}
+                  className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                  onError={() => setHidden(prev => new Set(prev).add(i))}
+                />
+              </button>
+              <p className="text-[11px] text-gray-400 leading-snug px-0.5">{item.caption}</p>
+            </div>
           ))}
         </div>
-        {visible.length === 0 && null}
       </div>
 
       {/* Lightbox */}

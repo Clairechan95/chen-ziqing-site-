@@ -1,9 +1,11 @@
+import { useState } from 'react';
 import { useLang } from '../context/LangContext';
 
 const BILIBILI_URL = 'https://space.bilibili.com/499064854';
 
 export default function Hero() {
   const { t } = useLang();
+  const [qrOpen, setQrOpen] = useState(false);
   return (
     <section className="pt-28 pb-20 bg-white border-b border-gray-100">
       <div className="max-w-5xl mx-auto px-6 flex flex-col md:flex-row items-center md:items-start gap-10">
@@ -50,20 +52,39 @@ export default function Hero() {
               {t.hero.bilibili}
             </a>
 
-            {/* WeChat Video Channel with QR hover */}
-            <span className="relative group inline-flex items-center gap-1.5 text-sm text-gray-500 cursor-pointer">
+            {/* WeChat Video Channel with QR lightbox */}
+            <span
+              className="inline-flex items-center gap-1.5 text-sm text-gray-500 cursor-pointer hover:text-[#07c160] transition-colors"
+              onClick={() => setQrOpen(true)}
+            >
               <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
                 <path d="M8.691 2.188C3.891 2.188 0 5.476 0 9.53c0 2.212 1.17 4.203 3.002 5.55a.59.59 0 0 1 .213.665l-.39 1.48c-.019.07-.048.141-.048.213 0 .163.13.295.29.295a.326.326 0 0 0 .167-.054l1.903-1.114a.864.864 0 0 1 .717-.098 10.16 10.16 0 0 0 2.837.403c.276 0 .543-.027.811-.05-.857-2.578.157-4.972 1.932-6.446 1.703-1.415 3.882-1.98 5.853-1.838-.576-3.583-4.196-6.348-8.596-6.348zM5.785 5.991c.642 0 1.162.529 1.162 1.18a1.17 1.17 0 0 1-1.162 1.178A1.17 1.17 0 0 1 4.623 7.17c0-.651.52-1.18 1.162-1.18zm5.813 0c.642 0 1.162.529 1.162 1.18a1.17 1.17 0 0 1-1.162 1.178 1.17 1.17 0 0 1-1.162-1.178c0-.651.52-1.18 1.162-1.18zm5.34 2.867c-1.797-.052-3.746.512-5.28 1.786-1.72 1.428-2.687 3.72-1.78 6.22.942 2.453 3.666 4.229 6.884 4.229.826 0 1.622-.12 2.361-.336a.722.722 0 0 1 .598.082l1.584.926a.272.272 0 0 0 .14.045c.134 0 .24-.111.24-.247 0-.06-.023-.12-.038-.177l-.327-1.233a.49.49 0 0 1 .178-.553C23.024 18.48 24 16.82 24 14.98c0-3.21-2.931-5.837-7.062-6.122zm-3.74 2.632c.535 0 .969.44.969.982a.976.976 0 0 1-.969.983.976.976 0 0 1-.969-.983c0-.542.434-.982.97-.982zm5.4 0c.535 0 .969.44.969.982a.976.976 0 0 1-.969.983.976.976 0 0 1-.969-.983c0-.542.434-.982.969-.982z"/>
               </svg>
               {t.hero.wechat}
-              {/* QR code popup on hover */}
-              <span className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 hidden group-hover:flex flex-col items-center z-50">
-                <span className="bg-white rounded-xl shadow-lg border border-gray-100 p-2 flex flex-col items-center gap-1">
-                  <img src="/wechat-qr.jpg" alt="WeChat QR" className="w-52 object-contain rounded" />
-                </span>
-                <span className="w-2.5 h-2.5 bg-white border-r border-b border-gray-100 rotate-45 -mt-1.5 shadow-sm" />
-              </span>
             </span>
+
+            {/* WeChat QR lightbox overlay */}
+            {qrOpen && (
+              <div
+                className="fixed inset-0 z-50 bg-black/85 flex items-center justify-center p-6"
+                onClick={() => setQrOpen(false)}
+              >
+                <div className="bg-white rounded-2xl p-5 shadow-2xl flex flex-col items-center gap-3 max-w-xs w-full"
+                  onClick={e => e.stopPropagation()}>
+                  <p className="text-sm font-medium text-gray-700">{t.hero.wechat}</p>
+                  <img src="/wechat-qr.jpg" alt="WeChat QR" className="w-full object-contain rounded-lg" />
+                </div>
+                <button
+                  onClick={() => setQrOpen(false)}
+                  className="absolute top-5 right-5 text-white/70 hover:text-white transition-colors"
+                  aria-label="Close"
+                >
+                  <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M6 18L18 6M6 6l12 12" />
+                  </svg>
+                </button>
+              </div>
+            )}
           </div>
         </div>
       </div>
