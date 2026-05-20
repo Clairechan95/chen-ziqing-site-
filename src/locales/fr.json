@@ -1,0 +1,171 @@
+{
+  "nav": {
+    "about": "À propos",
+    "experience": "Expériences",
+    "publications": "Publications",
+    "teaching": "Enseignement",
+    "projects": "Projets",
+    "awards": "Distinctions",
+    "contact": "Contact"
+  },
+  "hero": {
+    "name": "Chen Ziqing",
+    "nameEn": "陈子晴",
+    "title": "Maître de conférences",
+    "department": "Département de langue et littérature françaises",
+    "institution": "École des langues étrangères, Université Jinan",
+    "email": "chenziqing95@hotmail.com",
+    "research": "Axes de recherche : didactique du FLE · ALAO · pédagogie de projet",
+    "bilibili": "Vidéos étudiantes (Bilibili)",
+    "wechat": "WeChat · Claire Français"
+  },
+  "experience": {
+    "title": "Expériences professionnelles",
+    "items": [
+      {
+        "role": "Maître de conférences en français",
+        "org": "École des langues étrangères, Université Jinan",
+        "period": "2020–présent",
+        "location": "Guangzhou, Chine",
+        "desc": "Enseignement de la compréhension orale en français, du français langue étrangère et du français du tourisme. Recherches en didactique du FLE, ALAO et pédagogie de projet."
+      },
+      {
+        "role": "Examinatrice DELF/DALF (A1–B2)",
+        "org": "France Éducation International",
+        "period": "2022–présent (valable jusqu'en 2027)",
+        "location": "Guangzhou, Chine",
+        "desc": "Examinatrice-correctrice habilitée pour les épreuves écrites et orales du DELF/DALF aux niveaux A1 à B2, certifiée par France Éducation International."
+      },
+      {
+        "role": "Interprète chinois–français",
+        "org": "Guangzhou Opera House",
+        "period": "Juil 2019",
+        "location": "Guangzhou, Chine",
+        "desc": "Interprétation consécutive pour la troupe française Piaf le Spectacle lors de la tournée de La Vie en Rose — salon de rencontre avec le public et interview sur Canton Radio."
+      },
+      {
+        "role": "Correspondante européenne (stagiaire)",
+        "org": "Guangdong Television · Bureau de Paris",
+        "period": "Oct 2016 – Jan 2017",
+        "location": "Paris, France",
+        "desc": "Journaliste présentatrice pour l'émission Global Live : rédaction de reportages, interviews de terrain, montage vidéo et traduction de sous-titres."
+      }
+    ]
+  },
+  "about": {
+    "title": "À propos",
+    "bio": "Maître de conférences en français à l'École des langues étrangères de l'Université Jinan, je suis titulaire d'un master en didactique du FLE de l'Université de Lorraine (France). Depuis mon recrutement en 2020, j'enseigne la compréhension orale, l'expression orale et le français appliqué, en m'intéressant particulièrement à l'intégration des technologies d'intelligence artificielle et de la pédagogie de projet dans l'enseignement des langues étrangères. J'ai également développé OuiOuiAI, une plateforme d'apprentissage du français assisté par IA, afin de concrétiser mes réflexions pédagogiques en outils pratiques."
+  },
+  "education": {
+    "title": "Formation",
+    "items": [
+      {
+        "degree": "Master en Didactique du FLE",
+        "school": "Université de Lorraine, France",
+        "year": "2018 – 2020"
+      },
+      {
+        "degree": "Licence en français",
+        "school": "Université Jinan, Chine",
+        "year": "2014 – 2018"
+      }
+    ]
+  },
+  "publications": {
+    "title": "Publications",
+    "items": [
+      {
+        "title": "Une pratique innovante en pédagogie par projets : création audiovisuelle en français pour les étudiants chinois",
+        "titleFr": "Synergies Chine, n° 19, 2024",
+        "journal": "Synergies Chine",
+        "year": "2024",
+        "level": "Revue classée B1",
+        "role": "Première auteure"
+      }
+    ]
+  },
+  "teaching": {
+    "title": "Enseignement",
+    "subtitle": "Environ 216 heures de cours par semestre. Plusieurs cours évalués dans le top 10 % de l'École.",
+    "courses": [
+      "Compréhension orale I–IV",
+      "Français du tourisme (cours d'excellence)",
+      "Français du journalisme",
+      "Simulation de guide touristique francophone",
+      "Atelier de simulation pédagogique en français",
+      "Français langue étrangère I–III (pour anglophones)",
+      "Conférences thématiques en français",
+      "Communication de marque sino-française et pratiques des nouveaux médias (micro-diplôme)"
+    ]
+  },
+  "projects": {
+    "title": "Projets",
+    "items": [
+      {
+        "name": "OuiOuiAI – Plateforme intelligente d'apprentissage du français",
+        "desc": "Application web développée de manière autonome, intégrant recherche lexicale par IA, carnet de vocabulaire, exercices de conjugaison, dictée créative et suivi des erreurs.",
+        "year": "2024–présent",
+        "tag": "Développement personnel"
+      },
+      {
+        "name": "Cours d'excellence de l'Université Jinan (volet HMT-diaspora)",
+        "desc": "Le cours Français du tourisme a été labellisé cours d'excellence, articulant pédagogie de projet et création vidéo en français. Les productions des étudiants sont publiées sur Bilibili.",
+        "year": "2024",
+        "tag": "Niveau universitaire"
+      },
+      {
+        "name": "Projet de réforme pédagogique universitaire",
+        "desc": "Recherche sur une pratique innovante combinant enseignement du FLE, création de vidéos courtes et valorisation de la culture chinoise auprès des étudiants HMT-diaspora.",
+        "year": "2023",
+        "tag": "Niveau universitaire"
+      },
+      {
+        "name": "Projet d'innovation étudiante : Olympisme au campus",
+        "desc": "Co-encadrement d'un projet d'innovation universitaire autour des JO de Paris 2024 : création d'une matrice de vidéos bilingues chinois-français (plus de 180 000 vues) et ateliers de FLE dans 5 établissements scolaires, touchant 231 participants. Reconnu par l'Association des anciens de l'Université Jinan et l'Ambassade de France en Chine.",
+        "year": "2024–2025",
+        "tag": "Encadrement étudiant"
+      },
+      {
+        "name": "Enseignement du chinois en communautés internationales",
+        "desc": "Encadrement d'étudiants dispensant des cours de mandarin à des résidents francophones et anglophones dans les communautés internationales de Wushan et Liede à Guangzhou.",
+        "year": "2024–présent",
+        "tag": "Service communautaire"
+      }
+    ]
+  },
+  "awards": {
+    "title": "Distinctions",
+    "items": [
+      {
+        "year": "2025",
+        "desc": "3e prix, Concours d'essais sur la réforme de l'évaluation éducative, Université Jinan"
+      },
+      {
+        "year": "2024",
+        "desc": "Prix du meilleur encadrant, Times Cannes Young Director Award"
+      },
+      {
+        "year": "2022",
+        "desc": "Meilleur encadrant d'association étudiante, Université Jinan"
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Galerie",
+    "items": [
+      { "src": "/gallery-gdtv.jpg", "caption": "Correspondante européenne, GDTV · Paris" },
+      { "src": "/gallery-opera.jpg", "caption": "Interprète pour La Vie en Rose · Guangzhou Opera House" },
+      { "src": "/gallery-community.jpg", "caption": "Encadrement de cours de mandarin à la communauté internationale de Liede" },
+      { "src": "/gallery-class2.jpg", "caption": "Micro-diplôme Communication de marque sino-française — photo de fin de semestre" },
+      { "src": "/gallery-olympic.jpg", "caption": "Projet étudiant : atelier de FLE sur le thème des JO" },
+      { "src": "/gallery-class3.jpg", "caption": "Français du tourisme — cours de pédagogie par projet (création vidéo)" }
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "email": "Courriel"
+  },
+  "footer": {
+    "text": "Chen Ziqing · École des langues étrangères, Université Jinan"
+  }
+}

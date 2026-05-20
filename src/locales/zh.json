@@ -1,0 +1,171 @@
+{
+  "nav": {
+    "about": "关于我",
+    "experience": "经历",
+    "publications": "学术论文",
+    "teaching": "教学",
+    "projects": "项目",
+    "awards": "荣誉",
+    "contact": "联系"
+  },
+  "hero": {
+    "name": "陈子晴",
+    "nameEn": "Chen Ziqing",
+    "title": "讲师",
+    "department": "法语语言文学系",
+    "institution": "暨南大学外国语学院",
+    "email": "chenziqing95@hotmail.com",
+    "research": "研究方向：法语教学法 · AI辅助外语教学 · 项目式教学",
+    "bilibili": "B站课堂视频",
+    "wechat": "视频号·克莱尔法语"
+  },
+  "experience": {
+    "title": "职业经历",
+    "items": [
+      {
+        "role": "法语讲师",
+        "org": "暨南大学外国语学院",
+        "period": "2020–至今",
+        "location": "广州",
+        "desc": "承担法语听力、法语（第二外语）、旅游法语等课程教学，研究方向涵盖法语教学法、AI辅助外语教学与项目式教学。"
+      },
+      {
+        "role": "DELF/DALF 考官（A1–B2）",
+        "org": "France Éducation International",
+        "period": "2022–至今（有效期至2027年）",
+        "location": "广州",
+        "desc": "由法国法语教育国际授权，担任DELF/DALF法语能力考试A1至B2级别笔试与口试考官。"
+      },
+      {
+        "role": "法中现场口译",
+        "org": "广州大剧院",
+        "period": "2019.07",
+        "location": "广州",
+        "desc": "为法国剧团「Piaf le Spectacle」来华公演《玫瑰人生》期间，担任主创团队专场沙龙及广州广播电台采访的现场口译。"
+      },
+      {
+        "role": "欧洲特约记者",
+        "org": "广东卫视巴黎站",
+        "period": "2016.10 – 2017.01",
+        "location": "法国巴黎",
+        "desc": "为《直播全球》节目担任出镜记者，负责新闻采写、现场采访、视频剪辑与字幕翻译。"
+      }
+    ]
+  },
+  "about": {
+    "title": "关于我",
+    "bio": "我是暨南大学外国语学院法语系讲师，毕业于法国洛林大学（Université de Lorraine），获法语教学法硕士学位。自2020年入职以来，长期从事法语听力、口语及应用法语课程教学，致力于将人工智能技术与项目式教学相结合，探索新文科背景下外语教育的创新路径。同时自主开发了法语智能学习平台 OuiOuiAI，将教学理念转化为实践工具。"
+  },
+  "education": {
+    "title": "教育背景",
+    "items": [
+      {
+        "degree": "法语教学法 硕士",
+        "school": "法国洛林大学（Université de Lorraine）",
+        "year": "2018 – 2020"
+      },
+      {
+        "degree": "法语 学士",
+        "school": "暨南大学",
+        "year": "2014 – 2018"
+      }
+    ]
+  },
+  "publications": {
+    "title": "学术论文",
+    "items": [
+      {
+        "title": "项目教学创新实践：面向中国学生的法语视听制作",
+        "titleFr": "Une pratique innovante en pédagogie par projets : création audiovisuelle en français pour les étudiants chinois",
+        "journal": "Synergies Chine",
+        "year": "2024",
+        "level": "B1类核心期刊",
+        "role": "第一作者"
+      }
+    ]
+  },
+  "teaching": {
+    "title": "教学",
+    "subtitle": "每学期承担约216学时，多门课程评估位列学院前10%。",
+    "courses": [
+      "法语听力 I–IV",
+      "旅游法语（港澳台侨金课）",
+      "新闻法语",
+      "法语导游场景模拟训练营",
+      "法语模拟教学工作坊",
+      "法语（第二外语）I–III",
+      "法语系列专题讲座",
+      "中法品牌传播与新媒体实务（微专业）"
+    ]
+  },
+  "projects": {
+    "title": "项目",
+    "items": [
+      {
+        "name": "OuiOuiAI 法语智能学习平台",
+        "desc": "自主设计开发的法语学习工具，集智能查词、生词本、变位练习、创意听写、错题本于一体，用于课内外辅助教学。",
+        "year": "2024–至今",
+        "tag": "自主开发"
+      },
+      {
+        "name": "暨南大学「金课」建设项目（港澳台侨特色专项）",
+        "desc": "《旅游法语》课程获批港澳台侨金课，探索「法语+短视频+讲好中国故事」的产出导向教学模式。学生创作的法语视频作品收录于B站频道。",
+        "year": "2024",
+        "tag": "校级"
+      },
+      {
+        "name": "校级教学改革项目",
+        "desc": "港澳台侨学生「法语教学+短视频创作+讲好中国故事」创新实践课程改革研究。",
+        "year": "2023",
+        "tag": "校级"
+      },
+      {
+        "name": "校级大创：影映奥运，语动校园",
+        "desc": "联合指导校级大学生创新创业项目，围绕2024巴黎奥运会构建汉法双语短视频矩阵（全平台播放量逾18万次），并深入5所学校开展奥运主题法语工作坊，覆盖231名师生。成果获暨南大学校友会及法国驻华大使馆认可。",
+        "year": "2024–2025",
+        "tag": "大创指导"
+      },
+      {
+        "name": "国际社区汉语教学志愿服务",
+        "desc": "指导学生赴五山国际社区、猎德国际社区，面向法语及英语国家居民开展汉语教学志愿活动，推动中文国际传播与跨文化交流。",
+        "year": "2024–至今",
+        "tag": "社会服务"
+      }
+    ]
+  },
+  "awards": {
+    "title": "荣誉与获奖",
+    "items": [
+      {
+        "year": "2025",
+        "desc": "暨南大学教育评价改革主题征文 三等奖"
+      },
+      {
+        "year": "2024",
+        "desc": "时报金犊奖 优秀指导老师奖"
+      },
+      {
+        "year": "2022",
+        "desc": "暨南大学 学生社团优秀指导老师"
+      }
+    ]
+  },
+  "gallery": {
+    "title": "精彩瞬间",
+    "items": [
+      { "src": "/gallery-gdtv.jpg", "caption": "广东卫视《直播全球》欧洲特约记者，巴黎" },
+      { "src": "/gallery-opera.jpg", "caption": "广州大剧院《玫瑰人生》主创团队沙龙，法中口译" },
+      { "src": "/gallery-community.jpg", "caption": "指导学生赴猎德国际社区开展对外汉语教学" },
+      { "src": "/gallery-class2.jpg", "caption": "微专业「中法品牌传播与新媒体实务」课程学生合影" },
+      { "src": "/gallery-olympic.jpg", "caption": "大创项目：法语奥运主题兴趣课" },
+      { "src": "/gallery-class3.jpg", "caption": "旅游法语项目式课程——法语视频创作项目学生合影" }
+    ]
+  },
+  "contact": {
+    "title": "联系方式",
+    "email": "邮箱"
+  },
+  "footer": {
+    "text": "陈子晴 · 暨南大学外国语学院"
+  }
+}

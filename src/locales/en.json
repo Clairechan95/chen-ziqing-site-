@@ -1,0 +1,171 @@
+{
+  "nav": {
+    "about": "About",
+    "experience": "Experience",
+    "publications": "Publications",
+    "teaching": "Teaching",
+    "projects": "Projects",
+    "awards": "Awards",
+    "contact": "Contact"
+  },
+  "hero": {
+    "name": "Chen Ziqing",
+    "nameEn": "陈子晴",
+    "title": "Lecturer",
+    "department": "Department of French Language and Literature",
+    "institution": "School of Foreign Languages, Jinan University",
+    "email": "chenziqing95@hotmail.com",
+    "research": "Research interests: FLE didactics · AI-assisted language teaching · Project-based learning",
+    "bilibili": "Student Videos (Bilibili)",
+    "wechat": "WeChat · Claire French"
+  },
+  "experience": {
+    "title": "Professional Experience",
+    "items": [
+      {
+        "role": "Lecturer in French",
+        "org": "School of Foreign Languages, Jinan University",
+        "period": "2020–present",
+        "location": "Guangzhou, China",
+        "desc": "Teaching French Listening, French as a Second Foreign Language, Tourism French and other courses. Research focuses on FLE didactics, AI-assisted language learning, and project-based pedagogy."
+      },
+      {
+        "role": "DELF/DALF Examiner (A1–B2)",
+        "org": "France Éducation International",
+        "period": "2022–present (valid until 2027)",
+        "location": "Guangzhou, China",
+        "desc": "Certified examiner-corrector for DELF/DALF written and oral examinations at levels A1 to B2, accredited by France Éducation International."
+      },
+      {
+        "role": "Chinese–French Interpreter",
+        "org": "Guangzhou Opera House",
+        "period": "Jul 2019",
+        "location": "Guangzhou, China",
+        "desc": "Provided consecutive interpretation for the French troupe Piaf le Spectacle during the La Vie en Rose production — covering a public talking salon and a live interview with Canton Radio."
+      },
+      {
+        "role": "European Correspondent (Intern)",
+        "org": "Guangdong Television · Paris Bureau",
+        "period": "Oct 2016 – Jan 2017",
+        "location": "Paris, France",
+        "desc": "On-camera reporter for the Global Live programme, responsible for news writing, field interviews, video editing and subtitle translation."
+      }
+    ]
+  },
+  "about": {
+    "title": "About",
+    "bio": "I am a Lecturer in French at the School of Foreign Languages, Jinan University. I hold a Master's degree in French Language Teaching (FLE) from the Université de Lorraine, France. Since joining Jinan University in 2020, I have been teaching French listening, oral communication, and applied French courses, with a focus on integrating AI technology and project-based approaches into foreign language education. I also independently developed OuiOuiAI, an intelligent French learning platform, to translate pedagogical ideas into practical tools."
+  },
+  "education": {
+    "title": "Education",
+    "items": [
+      {
+        "degree": "M.A. in French Language Teaching (FLE)",
+        "school": "Université de Lorraine, France",
+        "year": "2018 – 2020"
+      },
+      {
+        "degree": "B.A. in French",
+        "school": "Jinan University, China",
+        "year": "2014 – 2018"
+      }
+    ]
+  },
+  "publications": {
+    "title": "Publications",
+    "items": [
+      {
+        "title": "Une pratique innovante en pédagogie par projets : création audiovisuelle en français pour les étudiants chinois",
+        "titleFr": "An Innovative Practice in Project-Based Pedagogy: Audiovisual Creation in French for Chinese Students",
+        "journal": "Synergies Chine",
+        "year": "2024",
+        "level": "B1-ranked journal",
+        "role": "First author"
+      }
+    ]
+  },
+  "teaching": {
+    "title": "Teaching",
+    "subtitle": "Approx. 216 teaching hours per semester. Several courses consistently ranked in the top 10% of the School's evaluations.",
+    "courses": [
+      "French Listening I–IV",
+      "Tourism French (Gold Course)",
+      "Journalism French",
+      "French Tour Guide Simulation",
+      "French Teaching Simulation Workshop",
+      "French as a Second Foreign Language I–III",
+      "French Thematic Lectures",
+      "Sino-French Brand Communication & New Media Practice (Micro-major)"
+    ]
+  },
+  "projects": {
+    "title": "Projects",
+    "items": [
+      {
+        "name": "OuiOuiAI – Intelligent French Learning Platform",
+        "desc": "A self-developed web application for French learners, featuring AI-powered vocabulary lookup, word notebook, verb conjugation practice, creative dictation, and a wrong-answer tracker.",
+        "year": "2024–present",
+        "tag": "Self-developed"
+      },
+      {
+        "name": "Jinan University Gold Course (HMT-Overseas Special)",
+        "desc": "Tourism French course approved as a Gold Course, integrating project-based learning with short-video creation in French. Student-produced videos are published on Bilibili.",
+        "year": "2024",
+        "tag": "University-level"
+      },
+      {
+        "name": "University Teaching Reform Project",
+        "desc": "Research on innovative French teaching practice combining French instruction, short-video creation and storytelling for HMT-overseas Chinese students.",
+        "year": "2023",
+        "tag": "University-level"
+      },
+      {
+        "name": "Innovation Project: Olympics on Campus",
+        "desc": "Co-supervised a university-level student innovation project around the 2024 Paris Olympics: built a Chinese-French bilingual short-video matrix (180,000+ total views) and ran French language workshops in 5 schools, reaching 231 participants. Recognized by Jinan University Alumni Association and the French Embassy in China.",
+        "year": "2024–2025",
+        "tag": "Student Mentorship"
+      },
+      {
+        "name": "Mandarin Teaching at International Communities",
+        "desc": "Supervised students in teaching Mandarin Chinese to French- and English-speaking residents at Wushan and Liede International Communities in Guangzhou, promoting Chinese language outreach.",
+        "year": "2024–present",
+        "tag": "Community Service"
+      }
+    ]
+  },
+  "awards": {
+    "title": "Awards",
+    "items": [
+      {
+        "year": "2025",
+        "desc": "Third Prize, Jinan University Essay Competition on Educational Evaluation Reform"
+      },
+      {
+        "year": "2024",
+        "desc": "Outstanding Supervisor Award, Times Cannes Young Director Award"
+      },
+      {
+        "year": "2022",
+        "desc": "Outstanding Student Society Supervisor, Jinan University"
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Gallery",
+    "items": [
+      { "src": "/gallery-gdtv.jpg", "caption": "European Correspondent, GDTV Global Live · Paris" },
+      { "src": "/gallery-opera.jpg", "caption": "Interpreter for La Vie en Rose creative team · Guangzhou Opera House" },
+      { "src": "/gallery-community.jpg", "caption": "Supervising Mandarin classes at Liede International Community" },
+      { "src": "/gallery-class2.jpg", "caption": "Sino-French Brand Communication micro-major — end-of-term class photo" },
+      { "src": "/gallery-olympic.jpg", "caption": "Student Innovation Project: French Olympics Workshop" },
+      { "src": "/gallery-class3.jpg", "caption": "Tourism French — project-based French video creation class" }
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "email": "Email"
+  },
+  "footer": {
+    "text": "Chen Ziqing · School of Foreign Languages, Jinan University"
+  }
+}
