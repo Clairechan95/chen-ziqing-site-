@@ -71,6 +71,14 @@
       }
     ]
   },
+  "languages": {
+    "title": "语言能力",
+    "items": [
+      { "lang": "法语", "level": "精通" },
+      { "lang": "英语", "level": "雅思 7.0" },
+      { "lang": "日语", "level": "初级" }
+    ]
+  },
   "publications": {
     "title": "学术论文",
     "items": [

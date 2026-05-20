@@ -71,6 +71,14 @@
       }
     ]
   },
+  "languages": {
+    "title": "Langues",
+    "items": [
+      { "lang": "Français", "level": "Courant" },
+      { "lang": "Anglais", "level": "IELTS 7.0" },
+      { "lang": "Japonais", "level": "Débutant" }
+    ]
+  },
   "publications": {
     "title": "Publications",
     "items": [

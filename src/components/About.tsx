@@ -9,18 +9,34 @@ export default function About() {
           <h2 className="text-xl font-bold text-primary mb-4">{t.about.title}</h2>
           <p className="text-gray-600 leading-relaxed text-sm">{t.about.bio}</p>
         </div>
-        <div>
-          <h3 className="text-sm font-semibold text-gray-400 uppercase tracking-widest mb-4">
-            {t.education.title}
-          </h3>
-          <div className="space-y-4">
-            {t.education.items.map((item, i) => (
-              <div key={i}>
-                <p className="text-sm font-medium text-gray-800">{item.degree}</p>
-                <p className="text-xs text-gray-500">{item.school}</p>
-                <p className="text-xs text-gray-400">{item.year}</p>
-              </div>
-            ))}
+        <div className="space-y-8">
+          <div>
+            <h3 className="text-sm font-semibold text-gray-400 uppercase tracking-widest mb-4">
+              {t.education.title}
+            </h3>
+            <div className="space-y-4">
+              {t.education.items.map((item, i) => (
+                <div key={i}>
+                  <p className="text-sm font-medium text-gray-800">{item.degree}</p>
+                  <p className="text-xs text-gray-500">{item.school}</p>
+                  <p className="text-xs text-gray-400">{item.year}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          <div>
+            <h3 className="text-sm font-semibold text-gray-400 uppercase tracking-widest mb-4">
+              {t.languages.title}
+            </h3>
+            <div className="space-y-2">
+              {t.languages.items.map((item, i) => (
+                <div key={i} className="flex items-center justify-between">
+                  <span className="text-sm text-gray-700">{item.lang}</span>
+                  <span className="text-xs text-gray-400">{item.level}</span>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </div>

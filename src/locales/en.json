@@ -71,6 +71,14 @@
       }
     ]
   },
+  "languages": {
+    "title": "Languages",
+    "items": [
+      { "lang": "French", "level": "Proficient" },
+      { "lang": "English", "level": "IELTS 7.0" },
+      { "lang": "Japanese", "level": "Beginner" }
+    ]
+  },
   "publications": {
     "title": "Publications",
     "items": [
