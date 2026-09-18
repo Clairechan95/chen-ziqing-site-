@@ -84,6 +84,14 @@
     "title": "Publications",
     "items": [
       {
+        "title": "From an “Add-on” to an “Intrinsic” Approach: A Project-Based Exploration of Ideological and Political Education Assessment in French Courses for Students from Hong Kong, Macao, Taiwan and Overseas Chinese Communities",
+        "titleFr": "",
+        "journal": "Jinan Higher Education Research · No. 1, 2026",
+        "year": "2026",
+        "level": "Teaching and Learning",
+        "role": "Solo author"
+      },
+      {
         "title": "Une pratique innovante en pédagogie par projets : création audiovisuelle en français pour les étudiants chinois",
         "titleFr": "An Innovative Practice in Project-Based Pedagogy: Audiovisual Creation in French for Chinese Students",
         "journal": "Synergies Chine",
@@ -126,8 +134,14 @@
         "year": "2024–present",
         "tag": "Self-developed",
         "featured": true,
-        "url": "https://ouiouiai.pages.dev/",
+        "url": "https://www.ouiouiai.com/",
         "cta": "Try it now"
+      },
+      {
+        "name": "From Using to Building: Vibe Coding-Driven Development and Application of AI Tools for French Language Teaching",
+        "desc": "A two-cycle action research project with two successive cohorts of first-year French listening students, using the self-developed OuiOuiAI platform to examine how vocabulary lookup, dictation, verb conjugation and error review support listening recognition, correction and sustained practice. It also develops a practical framework for language teachers to build, validate and refine teaching tools through Vibe Coding (No. 2026GJWY013).",
+        "year": "2026–present",
+        "tag": "Provincial-level"
       },
       {
         "name": "Jinan University Gold Course (HMT-Overseas Special)",
@@ -161,8 +175,12 @@
     "title": "Awards",
     "items": [
       {
+        "year": "2026",
+        "desc": "Third Prize, Jinan University Essay Competition on Educational Evaluation Reform — “From an Add-on to an Intrinsic Approach: A Project-Based Exploration of Ideological and Political Education Assessment in French Courses for Students from Hong Kong, Macao, Taiwan and Overseas Chinese Communities”"
+      },
+      {
         "year": "2025",
-        "desc": "Third Prize, Jinan University Essay Competition on Educational Evaluation Reform"
+        "desc": "Third Prize, Jinan University Essay Competition on Educational Evaluation Reform — “The Application of Multiple Assessment and Intelligent Technology in Foreign Language Education: The Case of a French Short-Video Project”"
       },
       {
         "year": "2024",

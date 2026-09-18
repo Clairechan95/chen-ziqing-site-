@@ -84,6 +84,14 @@
     "title": "学术论文",
     "items": [
       {
+        "title": "从“附加”走向“内生”——港澳台侨法语课程思政评价的项目式实践探索",
+        "titleFr": "",
+        "journal": "暨南高教研究 · 2026年第1期",
+        "year": "2026",
+        "level": "教育教学动态",
+        "role": "独立作者"
+      },
+      {
         "title": "项目教学创新实践：面向中国学生的法语视听制作",
         "titleFr": "Une pratique innovante en pédagogie par projets : création audiovisuelle en français pour les étudiants chinois",
         "journal": "Synergies Chine",
@@ -126,8 +134,14 @@
         "year": "2024–至今",
         "tag": "自主开发",
         "featured": true,
-        "url": "https://ouiouiai.pages.dev/",
+        "url": "https://www.ouiouiai.com/",
         "cta": "立即体验"
+      },
+      {
+        "name": "从使用到开发：Vibe Coding 驱动的法语教学 AI 工具建构与应用研究",
+        "desc": "依托自主开发的OuiOuiAI平台，以《法语听力Ⅰ》连续两届学生为对象开展两轮行动研究，考察智能查词、听写、动词变位和错题复习等功能如何支持词汇听辨、纠错与持续复习，并总结小语种教师借助Vibe Coding自主开发、验证和迭代教学工具的实践路径。课题编号：2026GJWY013。",
+        "year": "2026–至今",
+        "tag": "省级"
       },
       {
         "name": "暨南大学「金课」建设项目（港澳台侨特色专项）",
@@ -161,8 +175,12 @@
     "title": "荣誉与获奖",
     "items": [
       {
+        "year": "2026",
+        "desc": "暨南大学教育评价改革主题征文 三等奖（《从“附加”走向“内生”——港澳台侨法语课程思政评价的项目式实践探索》）"
+      },
+      {
         "year": "2025",
-        "desc": "暨南大学教育评价改革主题征文 三等奖"
+        "desc": "暨南大学教育评价改革主题征文 三等奖（《多元评价与智能技术在外语教育中的应用：以法语短视频项目为例》）"
       },
       {
         "year": "2024",

@@ -84,6 +84,14 @@
     "title": "Publications",
     "items": [
       {
+        "title": "De l’« ajout » à l’« intégration » : exploration par projet de l’évaluation de l’éducation idéologique et civique dans les cours de français destinés aux étudiants de Hong Kong, Macao, Taïwan et de la diaspora chinoise",
+        "titleFr": "",
+        "journal": "Recherches sur l’enseignement supérieur à Jinan · n° 1, 2026",
+        "year": "2026",
+        "level": "Dynamique pédagogique",
+        "role": "Auteure"
+      },
+      {
         "title": "Une pratique innovante en pédagogie par projets : création audiovisuelle en français pour les étudiants chinois",
         "titleFr": "Synergies Chine, n° 19, 2024",
         "journal": "Synergies Chine",
@@ -126,8 +134,14 @@
         "year": "2024–présent",
         "tag": "Développement personnel",
         "featured": true,
-        "url": "https://ouiouiai.pages.dev/",
+        "url": "https://www.ouiouiai.com/",
         "cta": "Essayer"
+      },
+      {
+        "name": "De l’utilisation au développement : conception et application d’outils d’IA pour l’enseignement du français grâce au Vibe Coding",
+        "desc": "Recherche-action en deux cycles menée auprès de deux promotions successives d’étudiants de première année en compréhension orale. À partir de la plateforme OuiOuiAI développée par l’enseignante, le projet étudie comment la recherche lexicale, la dictée, la conjugaison et la reprise des erreurs soutiennent la reconnaissance auditive, la correction et la révision continue. Il vise aussi à formaliser une démarche permettant aux enseignants de langues de concevoir, valider et faire évoluer leurs propres outils grâce au Vibe Coding (n° 2026GJWY013).",
+        "year": "2026–présent",
+        "tag": "Niveau provincial"
       },
       {
         "name": "Cours d'excellence de l'Université Jinan (volet HMT-diaspora)",
@@ -161,8 +175,12 @@
     "title": "Distinctions",
     "items": [
       {
+        "year": "2026",
+        "desc": "3e prix, Concours d’essais sur la réforme de l’évaluation éducative de l’Université Jinan — « De l’ajout à l’intégration : exploration par projet de l’évaluation de l’éducation idéologique et civique dans les cours de français destinés aux étudiants de Hong Kong, Macao, Taïwan et de la diaspora chinoise »"
+      },
+      {
         "year": "2025",
-        "desc": "3e prix, Concours d'essais sur la réforme de l'évaluation éducative, Université Jinan"
+        "desc": "3e prix, Concours d’essais sur la réforme de l’évaluation éducative de l’Université Jinan — « Application de l’évaluation multiple et des technologies intelligentes dans l’enseignement des langues étrangères : le cas d’un projet de courtes vidéos en français »"
       },
       {
         "year": "2024",

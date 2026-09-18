@@ -9,7 +9,7 @@ export default function About() {
           <h2 className="text-xl font-bold text-primary mb-4">{t.about.title}</h2>
           <p className="text-gray-600 leading-relaxed text-sm text-justify">{t.about.bio}</p>
           <a
-            href="https://ouiouiai.pages.dev/"
+            href="https://www.ouiouiai.com/"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block mt-4 text-sm text-primary hover:underline font-medium"
