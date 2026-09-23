@@ -205,7 +205,8 @@
   },
   "contact": {
     "title": "联系方式",
-    "email": "邮箱"
+    "email": "邮箱",
+    "facultyPage": "暨南大学教师主页"
   },
   "footer": {
     "text": "语言是桥，文化是岸。"

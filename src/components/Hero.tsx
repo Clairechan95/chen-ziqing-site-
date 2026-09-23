@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { useLang } from '../context/LangContext';
 
 const BILIBILI_URL = 'https://space.bilibili.com/499064854';
+const ORCID_URL = 'https://orcid.org/0009-0007-9834-1653';
 
 export default function Hero() {
   const { t } = useLang();
@@ -37,6 +38,22 @@ export default function Hero() {
                   d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
               </svg>
               {t.hero.email}
+            </a>
+
+            <a
+              href={ORCID_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="ORCID profile: 0009-0007-9834-1653"
+              className="inline-flex items-center gap-1.5 text-sm text-gray-500 hover:text-[#a6ce39] transition-colors"
+            >
+              <span
+                aria-hidden="true"
+                className="inline-flex h-4 w-4 items-center justify-center rounded-full bg-[#a6ce39] text-[8px] font-bold leading-none text-white"
+              >
+                iD
+              </span>
+              ORCID 0009-0007-9834-1653
             </a>
 
             <a
